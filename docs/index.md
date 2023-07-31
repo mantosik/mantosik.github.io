@@ -1,4 +1,0 @@
-### Hello
-
-Testing time
-Regenerate...
