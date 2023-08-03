@@ -87,11 +87,22 @@
   
 
   
+
+  
     
   
 
   
 
+  
+    
+  
+
+  
+    
+      <a class="page-link "
+          href="/parkrunstats">Parkrun stats</a>
+    
   
 
   
@@ -128,9 +139,9 @@
   
 
   
-    
-  
 
+  
+    
   
 
   
@@ -139,6 +150,14 @@
     
       <a class="category-link "
           href="/category/markup">Markup</a>
+    
+  
+
+  
+    
+  
+
+  
     
   
 
@@ -218,15 +237,45 @@
   
 
 
-  <div class="content">
-  <article class="post-body">
-    <h2 class="post-title">Hello World!</h2>
-    <p>
-    This is a page made with <a href="https://jekyllrb.com">Jekyll</a>
-  </p>
-  <p>More to come... but not a lot.</p>
-  </article>
+  <header>
+  
+
+
+  <h1 class="page-title">Edge Case</h1>
+</header>
+<div class="content">
+  
+  <p>Sample category page. You need to create a page for each category.
+The category is inferred from the title of the page, but you can also
+specify it with the <code class="language-plaintext highlighter-rouge">category</code> attribute in the front matter.</p>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">category</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">My Category</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<p>Or …</p>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">category</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Fancy Title</span>
+<span class="na">category</span><span class="pi">:</span> <span class="s">My Category</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<p>Posts get listed below here.</p>
+
+
+
+<ul class="posts-list">
+  
+  
+</ul>
+
 </div>
+
+
 
 
 
