@@ -68,8 +68,9 @@ a:hover { color: #fff; opacity: .75; }
   font: 300 12px 'DM Mono', monospace; letter-spacing: 1px; color: #8f99c4;
 }
 .quiet::before { content: ""; width: 4px; height: 4px; border-radius: 50%; background: #c9d0f0; }
-.now { top: 72px; right: 48px; }
-.elsewhere { bottom: 32px; right: 48px; }
+.quiet { right: max(48px, calc(50% - 600px + 6vw)); }
+.now { top: 72px; }
+.elsewhere { top: min(640px, calc(100vh - 48px)); }
 
 .ridge {
   position: fixed; left: 0; right: 0; bottom: 0; height: 30vh; z-index: 0;
@@ -82,5 +83,5 @@ a:hover { color: #fff; opacity: .75; }
   .note p { font-size: 20px; }
   .sky-map { max-width: 440px; margin-left: 4%; }
   .now { top: 24px; right: 24px; }
-  .elsewhere { right: 24px; }
+  .elsewhere { top: auto; bottom: 32px; right: 24px; }
 }
