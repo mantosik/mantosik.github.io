@@ -47,6 +47,7 @@ a:hover { color: #fff; opacity: .75; }
 .note h1 { margin: 0 0 8px; font-weight: 300; }
 .note h2 { margin: 24px 0 0; font: 300 12px 'DM Mono', monospace; letter-spacing: 3px; text-transform: uppercase; color: #9aa6d8; }
 .note.long p { font-size: 20px; }
+.note p a { border-bottom: 1px solid #4a5480; }
 .note p.updated { margin: -16px 0 8px; font: 300 11px 'DM Mono', monospace; letter-spacing: 3px; color: #7f89b5; }
 .quiet[aria-current] { color: #e9ecff; }
 
